@@ -13,7 +13,7 @@ public class Greetings {
 
     }
 
-    @RequestMapping("/")
+    @RequestMapping("/api/hello")
     public Greeting home() {
         return new Greeting("Sebastian", "Walter");
     }
