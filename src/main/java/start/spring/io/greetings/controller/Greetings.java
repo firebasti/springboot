@@ -14,8 +14,8 @@ public class Greetings {
     }
 
     @RequestMapping("/")
-    public String home() {
-        return "Juhu!";
+    public Greeting home() {
+        return new Greeting("Sebastian", "Walter");
     }
 
 }
